@@ -1,0 +1,12 @@
+- will we always receive one argument? what to do if argument omitted?
+  what to do if given more than one argument?
+- Will the argument always be an array? how should i handle non-array args?
+- will there be always 2 nested arrays or can there be less and/or more? how to handle?
+- how should i order the flat array? in order of processing or specific order?
+- can the array contain other values than sub-arrays? how to handle those?
+- can any of the subarrays contain Infinity, -Infinity or NaN? how to handle those?r
+- should this mutate the original array?
+- Can the array be sparse? what to do with missing elements?
+- can the subarrays contain arrays or objects? how to handle those?
+- if objects are allowed, should i check for equality or identity?
+- what to do with empty subarrays if allowed?
